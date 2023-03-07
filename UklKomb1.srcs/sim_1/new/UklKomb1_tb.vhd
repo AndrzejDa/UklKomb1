@@ -49,8 +49,7 @@ architecture Behavioral of UklKomb1_tb is
     signal led7_an_o : std_logic_vector (3 downto 0);
     signal led7_seg_o : std_logic_vector (7 downto 0);
     
-    constant delay : time := 10 ns;
-    signal buf : std_logic_vector (3 downto 0) := "0001";
+    constant delay : time := 100 ms;
 
 begin
     -- instance the uut

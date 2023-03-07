@@ -38,7 +38,7 @@ entity UklKomb1 is
 end UklKomb1;
 
 architecture Behavioral of UklKomb1 is
-    signal led7_0 : std_logic_vector(7 downto 0) := "00000001";
+    signal led7_0 : std_logic_vector(7 downto 0) := "00000011";
     signal led7_1 : std_logic_vector(7 downto 0) := "10011111";
     signal led7_2 : std_logic_vector(7 downto 0) := "00100101";
     signal led7_3 : std_logic_vector(7 downto 0) := "00001101";
